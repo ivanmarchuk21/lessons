@@ -45,143 +45,103 @@
 
 
 .row-container {
-max-width: 1440px;
-max-height: 1622px;
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-}
-
-.left-side {
-    width: 445px;
-}
-
-.flex-item{
-    width: 310px;
-    height: 774px;
-    background-color:#FBFBFB;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    color: #3D3D3D;
-    margin-top: 171px;
-    margin-left: 135px;
-}
-
-.categories {
-    font-family: 'Cera Pro Bold', sans-serif;;
-    color: #3D3D3D;
-    font-size: 18px;
-    margin-top: 14px;
-    margin-left: 18px;
-    margin-right: 199px;
-    margin-bottom: 7px;
-}
-
-.content {
-    font-family:'Cera Pro Regular', sans-serif;
-    color:#3D3D3D;
-    font-size: 15px;
-    margin-top: 7px;
-    margin-left: 30px;
-    margin-right: 189px;
-    line-height: 40px;
-
-}
-
-.green_plants {
-    font-family: 'Cera Pro Bold', sans-serif;
-    color: #46A358;
-}
-
-
-.flex-item2{
-    width: 310px;
-    height: 501px;
-    background: linear-gradient(180deg, rgba(70, 163, 88, 0.10) 0%, rgba(70, 163, 88, 0.03) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-left: 135px;
-    margin-right: 50px;
-    margin-bottom: 207px;
-    position: relative;
-}
+    justify-content: flex-start;
+    }
+    
+    .left-side {
+        flex: 0 0 310px;
+    }
+    
+    .flex-item{
+        background-color:#FBFBFB;
+        display: inline-block;
+        align-items: center;
+        color: #3D3D3D;
+        margin-top: 171px;
+        margin-left: 135px;
+        margin-right: 50px;
+    }
+    
+    .categories {
+        font-family: 'Cera Pro Bold', sans-serif;;
+        color: #3D3D3D;
+        font-size: 18px;
+        margin-top: 14px;
+        margin-left: 18px;
+        margin-right: 199px;
+        margin-bottom: 7px;
+    }
+    
+    .content {
+        font-family:'Cera Pro Regular', sans-serif;
+        color:#3D3D3D;
+        font-size: 15px;
+        margin-top: 7px;
+        margin-left: 30px;
+        margin-right: 188px;
+        line-height: 40px;
+        padding-bottom: 377px;
+    
+    }
+    
+    .green_plants {
+        font-family: 'Cera Pro Bold', sans-serif;
+        color: #46A358;
+    }
+    
+    .flex-item2{
+        background: linear-gradient(180deg, rgba(70, 163, 88, 0.10) 0%, rgba(70, 163, 88, 0.03) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-left: 135px;
+        margin-right: 50px;
+        position: relative;
+    }
+    
+    .super{
+        font-family: 'Hanging Letters', sans-serif;
+        color: #46A358;
+        font-size: 65px;
+        margin-top: 18px;
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-bottom: 11px;
+    }
+    
+    .off{
+        font-family:'Cera Pro Bold', sans-serif;
+        color: #3D3D3D;
+        font-size: 23px;
+        margin-top: 11px;
+        margin-left: 72px;
+        margin-right: 72px;
+        margin-bottom: 5px;
+    }
+    
+    .flex-item-planty {
+        background: url(./pictures/planty.png) lightgray 50% / cover no-repeat;
+        mix-blend-mode: multiply;
+        width: 329px;
+        height: 378px;
+        margin-left: 117px;
 
-
-.super{
-    font-family: 'Hanging Letters', sans-serif;
-    color: #46A358;
-    font-size: 65px;
-    margin-top: 18px;
-    margin-left: 22px;
-    margin-right: 22px;
-    margin-bottom: 11px;
-}
-
-.off{
-    font-family:'Cera Pro Bold', sans-serif;
-    color: #3D3D3D;
-    font-size: 23px;
-    margin-top: 11px;
-    margin-left: 72px;
-    margin-right: 72px;
-    margin-bottom: 5px;
-}
-
-
-.flex-item-planty {
-background: url(./pictures/planty.png) lightgray 50% / cover no-repeat;
-mix-blend-mode: multiply;
-width: 365px;
-height: 365px;
-}
-
-
-.small-circle {
-width: 15px;
-height: 15px;
-border-radius: 29px;
-background: linear-gradient(145deg, rgba(70, 163, 88, 0.30) -46.09%, rgba(70, 163, 88, 0.00) 103.28%);
-position: absolute; 
-left: 38px;
-}
-
-.small-square {
-position: absolute;
-width: 22px;
-height: 22px;
-border-radius: 7px;
-border: 2px solid #46A358;
-opacity: 0.2;
-top: 329px;
-left: 16px;
-}
-
-.big-circle {
-position: absolute;
-width: 45px;
-height: 45px;
-border-radius: 29px;
-background: linear-gradient(145deg, rgba(70, 163, 88, 0.30) -46.09%, rgba(70, 163, 88, 0.00) 103.28%);
-right: 17px;
-bottom: 82px;
-}
+        }
+    
+    
 
 
 .list {
-    width: 838px;
-    height: 23px;
     display: flex;
     flex-direction: row;  
     justify-content: space-evenly;         
     margin-top: 181px;
-    margin-left: 50px;
-    margin-right: 109px;
+    margin-right: 140px;
     margin-bottom: 12px;
 }
 
@@ -220,16 +180,15 @@ padding: 0px 3.333px;
 
 
   .big-flex {
-    width: 840px;
-    height: 1227px;
     margin-top: 38px;
-    margin-left: 50px;
     margin-right: 109px;
     margin-bottom: 207px;
 }
 
 .flex-flowers {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 258px);
+    grid-auto-rows: auto;  
     column-gap: 33px;
     row-gap: 70px;
     flex-wrap: wrap;
@@ -419,8 +378,6 @@ padding: 0px 3.333px;
 
     
     .flex-flo-6 {
-        width: 258px;
-        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -565,50 +522,46 @@ padding: 0px 3.333px;
                 justify-content: center;
                 align-items: center;
                 gap: 10px;
-                width: 215px;
-                height: 35px;
                 margin-top: 90px;
-                margin-left: 620px;
+                margin-left: 689px;
                 margin-right: 109px;
                 margin-bottom: 82px;
             }
 
           
             .button-next {
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                width: 35px;
-                height: 35px;
                 border-radius: 4px;
                 border: 1px solid #E5E5E5;
                 background: #FFFFFF;
                 font-family: 'Cera Pro Light' , sans-serif;
                 font-size: 18px;
                 color: #3D3D3D;
-                line-height: 16px;
+                line-height: 35px;
+                flex: 0 0 35px;
             }
 
             .button-next-active {
                 font-family:'Cera Pro Bold';
                 background: #46A358;
                 color: #FFF;
-                width: 35px;
-                height: 35px;
                 border: none;
                 font-size: 18px;
+                line-height: 35px;
+                flex: 0 0 35px;
             }
 
             .button-next-arrow {
-                display: flex;
-                padding: 3.75px 0px;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                width: 35px;
-                height: 35px;
                 border-radius: 4px;
                 border: 1px solid #E5E5E5;
                 background: #FFF;
+                line-height: 35px;
+                flex: 0 0 35px;
 
             }
 
