@@ -83,24 +83,10 @@ header {
     list-style: none;
     position: absolute;
     font-family: 'Encode Regular';
-    display: none;
     left: 1px;
+    display: none;
+    z-index: 999;
 }
-
-.list-item:hover .sub-list {
-    display: block;
-}
-
-
-.sub-list-item-a:hover,
-.sub-list-item-b:hover,
-.sub-list-item-c:hover,
-.sub-list-item-d:hover {
-  background-color: #46A358;
-  color: #FFF;
-  font-family: 'Encode Bold';
-}
-
 
 .sub-list-item-a {
     margin-top: 24px;
@@ -139,61 +125,27 @@ header {
     padding-right: 30px; 
 }
 
-.first {
-    display: inline-block;
-    margin-left: 88.967px;
-    margin-top: 7px;
-}
-
-.arrow-second {
-    display: none;     
-    position: absolute;
-    margin-left: 152.97px;
-    margin-top: 7px ;
-    margin-right: 17.03px;
-  }
-
-
-
-    .sub-list-item-d:hover .first {
-        display: none;        
-      }
-
-      .sub-list-item-d:hover .arrow-second {
-        display: inline-block; 
-      }
-
-
 .second-sub-list {
     list-style: none;
-    display: none;
     position: absolute;
     font-family: 'Encode Regular';
     color: #3D3D3D;
     font-size: 16px;
-    top: 23px;
-    left: 102%;  
     z-index: 999;
-
+    top: 24px;
+    left: 102%;  
+    display: none;
 }
 
 .second-sub-item-a {
-padding-top: 7px;
-padding-left: 14px;
-padding-right: 89px;
-padding-bottom: 8px;
-background-color: #EDF6EE;
-}
-
-.second-sub-item-b {
     padding-top: 7px;
     padding-left: 14px;
-    padding-right: 91px;
+    padding-right: 89px;
     padding-bottom: 8px;
     background-color: #EDF6EE;
     }
 
-    .second-sub-item-c {
+    .second-sub-item-b {
         padding-top: 7px;
         padding-left: 14px;
         padding-right: 91px;
@@ -201,35 +153,79 @@ background-color: #EDF6EE;
         background-color: #EDF6EE;
         }
 
-        .second-sub-item-d {
-            position: relative;
+        .second-sub-item-c {
             padding-top: 7px;
             padding-left: 14px;
-            padding-right: 14px;
+            padding-right: 91px;
             padding-bottom: 8px;
             background-color: #EDF6EE;
             }
-
-            .second-sub-item-e {
+    
+            .second-sub-item-d {
+                position: relative;
                 padding-top: 7px;
                 padding-left: 14px;
                 padding-right: 14px;
                 padding-bottom: 8px;
                 background-color: #EDF6EE;
                 }
-
-
-                .second-sub-item-f {
+    
+                .second-sub-item-e {
                     padding-top: 7px;
                     padding-left: 14px;
                     padding-right: 14px;
                     padding-bottom: 8px;
                     background-color: #EDF6EE;
                     }
+    
+                    .second-sub-item-f {
+                        padding-top: 7px;
+                        padding-left: 14px;
+                        padding-right: 14px;
+                        padding-bottom: 8px;
+                        background-color: #EDF6EE;
+                        }
+    
 
-                    .sub-list-item-d:hover .second-sub-list {
-                        display: block;
-                      }
+.sub-list-item-a:hover,
+.sub-list-item-b:hover,
+.sub-list-item-c:hover,
+.sub-list-item-d:hover {
+  background-color: #46A358;
+  color: #FFF;
+  font-family: 'Encode Bold';
+}
+
+.list-item:hover .sub-list {
+    display: block;
+}
+
+.first {
+    display: inline-block;
+    margin-left: 88.967px;
+    margin-top: 7px;
+}
+
+.arrow-second {
+    display: none;  
+    position: absolute;
+    margin-left: 152.97px;
+    margin-top: 7px ;
+    margin-right: 17.03px;
+  }
+
+  .sub-list-item-d:hover .second-sub-list {
+    display: block;
+  }
+
+
+.sub-list-item-d:hover .first {
+    display: none;        
+  }
+
+  .sub-list-item-d:hover .arrow-second {
+    display: inline-block; 
+  }
 
 
 nav {
@@ -349,7 +345,7 @@ border: none;
 }
 
 .online {
-    margin-left: 46px;
+    margin-left: 30px;
     margin-bottom: 44px;
     font-family: 'Cera Pro Regular', sans-serif;
     color:#727272;
