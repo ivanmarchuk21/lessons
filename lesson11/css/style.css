@@ -81,23 +81,32 @@ display: flex;
 
 
 .circle-first {
+    background: url(../pictures/circle-first.svg);
     margin-top: 21.1px;
     position: absolute;
+    width: 74px;
+    height: 74.368px;
 }
 
 .top-first {
+    background: url(../pictures/top_first.svg);
     position: absolute;
     margin-left: 16px;
+    width: 61px;
+    height: 46.229px;
 }
 
 .bottom-1 {
+    background: url(../pictures/bottom-1.svg);
     position: absolute;
     margin-top: 45.22px;
     margin-left: 19px;
+    width: 55px;
+    height: 48.239px;
 }
 
 .care {
-    margin-top: 110.55px;
+    margin-top: 116.75px;
     margin-bottom: 9.04px;
     font-size: 17px;
     line-height: 16px;
@@ -124,20 +133,29 @@ display: flex;
 }
 
 .circle-second {
+    background: url(../pictures/circle-second.svg);
     margin-top: 16.5px;
     position: absolute;
+    width: 74px;
+    height: 76.265px;
 }
 
 .top-second {
+    background: url(../pictures/top-second.svg);
     margin-left: 31px;
     position: absolute;
+    width: 35px;
+    height: 40.194px;
 }
 
 .bottom-2 {
+    background: url(../pictures/bottom-2.svg);
     position: absolute;
     margin-left: 15px;
     margin-top: 39.16px;
     margin-bottom: 3.09px;
+    width: 68px;
+    height: 50.5px;
 }
 
 .renovation {
@@ -158,20 +176,29 @@ display: flex;
 
 
 .circle-third {
+    background: url(../pictures/circle-third.svg);
     margin-top: 15.54px;
     position: absolute;
+    width: 74px;
+    height: 76.656px;
 }
 
 .top-third {
+    background: url(../pictures/top-third.svg);
     margin-left: 31px;
     position: absolute;
+    width: 44px;
+    height: 50.759px;
 }
 
 .bottom-3 {
+    background: url(../pictures/bottom-3.svg);
     position: absolute;
     margin-left: 7px;
     margin-top: 46.62px;
     margin-bottom: 4.14px;
+    width: 83px;
+    height: 41.436px;
 }
 
 .watering {
@@ -265,10 +292,13 @@ border: none;
 }
 
 .logo {
+background: url(../pictures/Logo.svg);
 margin-top: 27px;
 margin-left: 23px;
 margin-bottom: 26.7px;
 margin-right: 155px;
+width: 150px;
+height: 34.3px;
 }
 
 .location {
@@ -396,7 +426,36 @@ margin-right: 155px;
     display: flex;
     margin-top: 20px;
     gap: 10px;
+}
 
+.facebook {
+    background: url(../pictures/Facebook.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.instagram {
+    background: url(../pictures/Instagram.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.twitter {
+    background: url(../pictures/Twitter.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.linkedin {
+    background: url(../pictures/Linkidin.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.youtube {
+    background: url(../pictures/Youtube.svg);
+    width: 32px;
+    height: 32px;
 }
 
 .accept {
@@ -407,7 +466,7 @@ margin-right: 155px;
 }
 
 .pay {
-    background: url(./pictures/image\ 16.png);
+    background: url(../pictures/image\ 16.png);
     mix-blend-mode: multiply;
     margin-top: 13px;
     width: 224px;
