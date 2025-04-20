@@ -1,0 +1,114 @@
+
+
+
+
+@keyframes button-green {
+    0%{
+        background-color: #46A358;
+    }
+
+    100% {
+        background-color: rgb(255, 81, 0);
+    }
+}
+
+@keyframes login-green {
+    0%{
+        background-color: #46A358;
+    }
+
+    100% {
+        background-color: dodgerblue;
+    }
+}
+
+@keyframes next {
+    0%{
+       background-color: #FFF;
+    }
+
+    100% {
+        color: #FFF;
+        background-color: #46A358;
+    }
+}
+
+@keyframes read {
+    0%{
+       color: black;
+    }
+
+    100% {
+       color: #46A358;
+    }
+}
+
+@keyframes text {
+    0%{
+       color: black;
+    }
+
+    100% {
+       color: red;
+    }
+}
+
+.login_button:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.shop_now:hover {
+    animation: button-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.button-next:hover {
+    animation: next 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.button-next-arrow:hover {
+    animation: next 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.off_top:hover {
+    animation: button-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.find-more:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.first-black:hover {
+    animation: text 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.first-read:hover {
+    animation: read 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.second-black:hover {
+    animation: text 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.second-read:hover {
+    animation: read 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.third-black:hover {
+    animation: text 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.fourth-black:hover {
+    animation: text 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.fourth-read:hover {
+    animation: read 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.join-button:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.facebook:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.instagram:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.twitter:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.linkedin:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.youtube:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}
+
+.button-filter:hover {
+    animation: login-green 3s cubic-bezier(0.1, 0.25, 0.1, 1) infinite normal none;}                                                                
